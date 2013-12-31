@@ -1,0 +1,131 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .gradle
+* .gradle/1.9-rc-3
+* .gradle/1.9-rc-3/taskArtifacts
+* .gradle/1.9-rc-3/taskArtifacts/cache.properties
+* .gradle/1.9-rc-3/taskArtifacts/cache.properties.lock
+* .gradle/1.9-rc-3/taskArtifacts/fileHashes.bin
+* .gradle/1.9-rc-3/taskArtifacts/fileSnapshots.bin
+* .gradle/1.9-rc-3/taskArtifacts/outputFileStates.bin
+* .gradle/1.9-rc-3/taskArtifacts/taskArtifacts.bin
+* .idea
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/gradle.xml
+* .idea/gradle_settings2_config.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes
+* .idea/scopes/scope_settings.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* build
+* build/classes
+* build/classes/production
+* build/classes/production/hello-jni
+* build/classes/production/hello-jni/com
+* build/classes/production/hello-jni/com/example
+* build/classes/production/hello-jni/com/example/hellojni
+* build/classes/production/hello-jni/com/example/hellojni/BuildConfig.class
+* build/classes/production/hello-jni/com/example/hellojni/R$attr.class
+* build/classes/production/hello-jni/com/example/hellojni/R$string.class
+* build/classes/production/hello-jni/com/example/hellojni/R.class
+* build/classes/production/hello-jni/hello-jni.apk
+* build/classes/production/hello-jni/hello-jni.unaligned.apk
+* gradle
+* gradle/wrapper
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* hello-jni.iml
+* jni
+* jni/Android.mk
+* jni/hello-jni.c
+* local.properties
+* tests
+* tests/.DS_Store
+* tests/.classpath
+* tests/.project
+* tests/.settings
+* tests/.settings/org.eclipse.jdt.core.prefs
+* tests/AndroidManifest.xml
+* tests/assets
+* tests/bin
+* tests/bin/AndroidManifest.xml
+* tests/bin/classes
+* tests/bin/classes/.DS_Store
+* tests/bin/classes/com
+* tests/bin/classes/com/.DS_Store
+* tests/bin/classes/com/example
+* tests/bin/classes/com/example/.DS_Store
+* tests/bin/classes/com/example/hellojni
+* tests/bin/classes/com/example/hellojni/tests
+* tests/bin/classes/com/example/hellojni/tests/BuildConfig.class
+* tests/bin/res
+* tests/gen
+* tests/gen/com
+* tests/gen/com/example
+* tests/gen/com/example/hellojni
+* tests/gen/com/example/hellojni/tests
+* tests/gen/com/example/hellojni/tests/BuildConfig.java
+* tests/project.properties
+* tests/res
+* tests/res/drawable-hdpi
+* tests/res/drawable-ldpi
+* tests/res/drawable-mdpi
+* tests/res/drawable-xhdpi
+* tests/res/layout
+* tests/res/values
+* tests/src
+* tests/src/.DS_Store
+* tests/src/com
+* tests/src/com/.DS_Store
+* tests/src/com/example
+* tests/src/com/example/.DS_Store
+* tests/src/com/example/hellojni
+* tests/src/com/example/hellojni/HelloJniTest.java
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Old Build Tools:
+----------------
+The version of the build tools installed with your SDK is old. It
+should be at least version 19.0.1 to work well with the Gradle build
+system. To update it, open the Android SDK Manager, and install the
+highest available version of Tools > Android SDK Build-tools.
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

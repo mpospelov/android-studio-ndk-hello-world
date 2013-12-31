@@ -1,0 +1,2 @@
+set solib-search-path /Users/mihailpospelov/android_projects/hello-jni1/app/src/main/obj/local/armeabi
+directory /usr/local/Cellar/android-ndk/9/platforms/android-3/arch-arm/usr/include /Users/mihailpospelov/android_projects/hello-jni1/app/src/main/jni /usr/local/Cellar/android-ndk/9/sources/cxx-stl/system

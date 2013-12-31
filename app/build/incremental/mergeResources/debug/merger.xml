@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/mihailpospelov/android_projects/hello-jni1/app/src/main/res" >
+            <file
+                path="/Users/mihailpospelov/android_projects/hello-jni1/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="app_name" >HelloJni
+                </string>
+            </file>
+        </source>
+        <source path="/Users/mihailpospelov/android_projects/hello-jni1/app/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/mihailpospelov/android_projects/hello-jni1/app/src/debug/res" />
+    </dataSet>
+
+</merger>
